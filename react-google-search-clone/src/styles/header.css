@@ -1,0 +1,66 @@
+
+.app-header-cont {
+    /* display: flex; */
+    /* flex-shrink: 0; */
+    /* align-items: center; */
+    padding: 6px;
+    /* height: 60px; */
+}
+
+.app-header-end {
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: flex-end;
+    /* height: 48px; */
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    padding: 0 4px 0 32px;
+}
+
+.menu-item-cont {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.menu-item {
+    color: #bdc1c6;
+    padding-left: 15px
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    /* line-height: 24px; */
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+}
+
+.menu-images {
+    display: flex;
+    align-items: center;
+}
+
+.app-launcher-cont, .avatar-cont {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.app-header-cont a {
+    padding: 8px;
+}
+
+.app-launcher-svg {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(4deg) brightness(102%) contrast(101%);
+}
+
+.avatar-cont a {
+    padding: 4px;
+}
