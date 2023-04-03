@@ -1,0 +1,115 @@
+.search-sect-cont {
+    padding: 20px
+}
+
+.form-cont {
+    margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+}
+
+.search-area-cont {
+    display: flex;
+    height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.search-area-cont:hover {
+    background-color: #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+    border-color: #dfe1e500;
+}
+
+.search-area {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.search-icon-cont {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search-icon-cont span {
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
+
+.search-icon-cont span img {
+    filter: invert(64%) sepia(2%) saturate(1021%) hue-rotate(169deg) brightness(100%) contrast(87%);
+}
+
+.text-area {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+}
+
+.text-area input {
+    flex: 100%;
+    background-color: transparent;
+    border: none;
+    color: #e8eaed;
+    height: 34px;
+    word-wrap: break-word;
+    outline: none;
+}
+
+.search-icon2-cont {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    align-items: stretch;
+    margin-top: -5px;
+}
+
+.search-icon2-cont span {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    /* line-height: 44px; */
+}
+
+.search-link-cont {
+    padding-top: 18px;
+    /* height: 70px; */
+}
+
+.search-link {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search-link:hover {
+    box-shadow: 0 1px 3px #1717173d;
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}

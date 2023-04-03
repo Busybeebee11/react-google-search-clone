@@ -1,16 +1,16 @@
 import Header from "./Header";
-import GoogleLogo from "./GoogleLogo";
-import SearchForm from "./SearchForm";
-import Languages from "./Languages";
+import GoogleLogoSection from "./GoogleLogoSection";
+import SearchSection from "./SearchSection";
+import LanguagesSection from "./LanguagesSection";
 import Footer from "./Footer";
 
 const GoogleApp = () => {
     return (
         <div className="container">
             <Header />
-            <GoogleLogo />
-            <SearchForm />
-            <Languages />
+            <GoogleLogoSection />
+            <SearchSection />
+            <LanguagesSection />
             <Footer />
         </div>
   )

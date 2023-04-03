@@ -1,9 +1,11 @@
 
 const MenuItems = (props) => {
     return (
-        <a href={props.link} className="menu-item">
-            {props.title}
-        </a>
+        <div className="menu-item">
+            <a href={props.link} className="menu-item-link">
+                {props.title}
+            </a>
+        </div>
     );
 };
 
