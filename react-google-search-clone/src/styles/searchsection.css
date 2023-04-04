@@ -1,5 +1,7 @@
 .search-sect-cont {
-    padding: 20px
+    flex-shrink: 0;
+    padding: 20px;
+    max-height: 160px;
 }
 
 .form-cont {
@@ -7,6 +9,7 @@
     padding-top: 6px;
     width: auto;
     max-width: 584px;
+    position: relative;
 }
 
 .search-area-cont {
@@ -51,9 +54,9 @@
 }
 
 .text-area {
-        display: flex;
-        flex: 1;
-        flex-wrap: wrap;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .text-area input {
@@ -83,12 +86,12 @@
     background: transparent;
     outline: none;
     padding: 0 8px;
-    /* line-height: 44px; */
+    line-height: 44px;
 }
 
 .search-link-cont {
     padding-top: 18px;
-    /* height: 70px; */
+    height: 90px;
 }
 
 .search-link {

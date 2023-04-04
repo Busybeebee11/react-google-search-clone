@@ -11,9 +11,11 @@ const SearchSection = () => {
           <div className="search-area-cont">
             <div className="search-area">
               <SearchIcon1 />
+
               <div className="text-area">
                 <input></input>
               </div>
+
               <SearchIcon2 />
             </div>
           </div>

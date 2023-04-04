@@ -1,0 +1,32 @@
+.languages-cont {
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 242px;
+}
+
+.languages-info {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: small;
+}
+
+.language-offered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bdc1c6;
+    line-height: 28px;
+    font-family: arial, sans-serif;
+}
+
+.language-link {
+    padding: 0 3px;
+    color: #8ab4f8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.language-link:hover {
+    text-decoration: underline;
+    color: #8ab4f8;
+}
