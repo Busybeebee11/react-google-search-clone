@@ -1,7 +1,7 @@
 .search-sect-cont {
     flex-shrink: 0;
     padding: 20px;
-    max-height: 160px;
+    max-height: 190px;
 }
 
 .form-cont {
@@ -67,6 +67,15 @@
     height: 34px;
     word-wrap: break-word;
     outline: none;
+}
+
+.search-keyword {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e8eaed;
+    position: absolute;
+    height: 19px;
 }
 
 .search-icon2-cont {

@@ -5,6 +5,7 @@ import LanguagesSection from "./LanguagesSection";
 import Footer from "./Footer";
 
 const GoogleApp = () => {
+
     return (
         <div className="container">
             <Header />
