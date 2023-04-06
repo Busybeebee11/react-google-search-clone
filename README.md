@@ -37,3 +37,6 @@ To solve this problem, you will need to create a new react app. You can use eith
 ### 2. Demonstrating the use of state
 Now, you have successfully implemented the Google homepage. To demonstrate the use of states, implement a solution such that, when you enter any search keyword in the search bar, and click on the ‘Enter’ key on your keyboard, the search keyword is displayed directly under the Search bar.
 
+#### Live site
+https://react-googlesearch-clone.netlify.app/
+
