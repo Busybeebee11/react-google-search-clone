@@ -19,7 +19,6 @@ const AppsLauncherIcon = () => {
             <a href="google.com">
                 <img src={Icon} alt="apps launcher"
                     className="app-launcher-svg"
-                    style={{ width: "24px" }}
                     onMouseOver={handleMouseOver}
                     onMouseOut={handleMouseOut}
                     title={showTitle ? "Google apps" : null}

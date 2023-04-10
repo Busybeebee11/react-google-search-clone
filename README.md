@@ -8,25 +8,25 @@ To solve this problem, you will need to create a new react app. You can use eith
 
 #### a. Do a component breakdown analysis and list out the components you discovered
     
-    - main components: 
-- container
+main components: 
+1. container
 
-- header 
+2. header 
     -  menu items links - (gmail, images), 
     - app launcher, 
     - avatar component.
 
-- google-img 
+3. google-img 
     - google image component.
 
-- search 
+4. search 
     - search form - (search icon, search input, search by voice, search by image), 
     - menu links - google search, i'm feeling lucky.
 
-- language 
+5. language 
     - offered languages links
 
-- footer 
+6. footer 
     - location, 
     - left menu items - (about, advertising, business, how it works),
     - center text - (carbon neutral since 2007), 

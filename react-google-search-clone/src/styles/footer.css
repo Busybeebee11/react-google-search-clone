@@ -1,12 +1,11 @@
 .footer-cont {
     background: #171717;
-    flex-shrink: 0;
 }
 
 .location-cont {
     color: #9aa0a6;
     border-bottom: 1px solid #3c4043;
-    font-size: 15px;
+    font-size: 0.938rem;
     padding: 15px 30px;
 }
 
@@ -22,27 +21,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     min-width: 30%;
-    /* order: 1; */
-}
-
-.center-items {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    /* order: 2; */
-}
-
-.green-leaf {
-    height: 14px;
-    margin-right: 6px;
-}
-.right-menu-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    min-width: 30%;
-    /* order: 3; */
+    order: 1;
 }
 
 .footer-link {
@@ -53,25 +32,122 @@
     text-decoration: none;
 }
 
+.center-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    order: 2;
+}
+
+.center-items a {
+    display: flex;
+    align-items: center;
+    color: #999da2;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.center-items a:hover,
 .footer-link:hover {
     color: #999da2;
     text-decoration: underline;
 }
 
+.green-leaf {
+    width: 14px;
+    margin-right: 6px;
+}
+
+.right-menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+}
+
 /* MEDIA QUERY */
 @media screen and (max-width: 1200px) {
-    /* .footer-bottom-cont {
+    .footer-bottom-cont {
         justify-content: space-evenly;
-    } */
+    }
+
     .left-menu-items {
         order: 1;
     }
+
     .center-items {
         justify-content: center;
         width: 100%;
         order: 0;
     }
+    
    .right-menu-items {
     order: 2;
    }
+}
+
+@media only screen and (max-width: 768px) {
+    .location-cont {
+        font-size: 13px;
+        padding: 13px 30px;
+    }
+
+    .center-items a, .footer-link {
+        font-size: 11px;
+        padding: 12px 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .location-cont {
+        font-size: 10px;
+        padding: 10px 30px;
+    }
+
+    .center-items a,
+    .footer-link {
+        font-size: 9px;
+        padding: 10px;
+    }
+
+    .green-leaf {
+        margin-right: 3px;
+        width: 8px;
+    }
+}
+
+@media only screen and (max-width: 466px) {
+    .location-cont {
+        font-size: 8px;
+        padding: 10px;
+    }
+
+    .center-items a,
+    .footer-link {
+        font-size: 7px;
+        font-weight: 400;
+        padding: 8px;
+    }
+
+    .green-leaf {
+        margin-right: 3px;
+        width: 6px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .location-cont {
+        font-size: 6px;
+    }
+
+    .center-items a,
+    .footer-link {
+        font-size: 5px;
+    }
+
+    .green-leaf {
+        width: 5px;
+    }
 }

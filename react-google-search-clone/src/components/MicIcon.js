@@ -17,8 +17,7 @@ const MicIcon = () => {
   return (
       <>
           <span>
-              <img src={Icon} alt="-mic icon"
-                  style={{ width: "24px", height: "24px" }}
+              <img src={Icon} alt="-mic icon" className="search-icon2-img"
                   onMouseOver={handleMouseOver}
                   onMouseOut={handleMouseOut}
                   title={showTitle ? "Search by voice" : null}

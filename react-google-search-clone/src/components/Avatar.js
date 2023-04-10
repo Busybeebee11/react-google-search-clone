@@ -22,7 +22,6 @@ const Avatar = () => {
             <a href='google.com'>
                 <img src={Icon} alt="avatar"
                     className="avatar-img"
-                    style={{ width: "32px", borderRadius: "50%" }}
                     onMouseOver={handleMouseOver}
                     onMouseOut={handleMouseOut}
                     title={title}

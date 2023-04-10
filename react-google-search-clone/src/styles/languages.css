@@ -1,20 +1,17 @@
 .languages-cont {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 0;
     min-height: 224px;
 }
 
 .languages-info {
     text-align: center;
     margin-bottom: 24px;
-    font-size: small;
 }
 
 .language-offered {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: small;
     color: #bdc1c6;
     line-height: 28px;
     font-family: arial, sans-serif;
@@ -30,4 +27,47 @@
 .language-link:hover {
     text-decoration: underline;
     color: #8ab4f8;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1024px) {
+    .languages-cont {
+        min-height: 179px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .languages-cont {
+        min-height: 125px;
+    }
+
+    .language-offered, .language-link {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .languages-cont {
+        margin-top: -8px;
+        min-height: 193px;
+    }
+
+    .language-offered, .language-link {
+        font-size: 8px;
+        line-height: 13px;
+    }
+}
+
+@media only screen and (max-width: 466px) {
+    .languages-cont {
+        margin-top: -8px;
+        min-height: 278px;
+    }
+
+    .language-offered,
+    .language-link {
+        font-size: 6px;
+        line-height: 4px;
+    }
 }

@@ -1,11 +1,7 @@
 .googleimg-cont {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
     align-items: center;
-    min-height: 92px;
-    max-height: 290px;
-    height: calc(100% - 560px);
 }
 
 .google-logo {
@@ -22,4 +18,42 @@
     object-fit: contain;
     object-position: center bottom;
     width: auto;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1024px) {
+    .googleimg-cont {
+        height: 245px;
+        justify-content: end;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .googleimg-cont {
+        height: 163px;
+    }
+    
+    .google-logo img {
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .googleimg-cont {
+        height: 153px;
+    }
+
+    .google-logo img {
+        width: 163px;
+    }
+}
+
+@media only screen and (max-width: 466px) {
+    .googleimg-cont {
+        height: 128px;
+    }
+
+    .google-logo img {
+        width: 120px;
+    }
 }

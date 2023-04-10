@@ -4,7 +4,7 @@ const SearchIcon1 = () => {
   return (
       <div className='search-icon-cont'>
           <span>
-              <img src={Icon} alt="search icon" style={{ width: "20px"}} />
+              <img src={Icon} alt="search icon" />
           </span>
       </div>
   )

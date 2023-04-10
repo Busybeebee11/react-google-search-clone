@@ -1,11 +1,12 @@
 import GreenLeaf from "./GreenLeaf"
-import FooterMenuItems from "./FooterMenuItems"
 
 const FooterBottomCenterText = () => {
   return (
     <div className="center-items">
+      <a href="https://sustainability.google/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=#home">
         <GreenLeaf />
-        <FooterMenuItems title={"Carbon neutral since 2007"} link={"https://www.google.com/setprefs?sig=0_hkloAz7tM1B4ZAD-oAwnxETFUBg%3D&amp;hl=ha&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjPwJffkI7-AhUgVKQEHQlHBM8Q2ZgBCBA"} />
+        <span>Carbon neutral since 2007</span>
+      </a>
     </div>
   )
 }
